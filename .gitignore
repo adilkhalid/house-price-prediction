@@ -1,0 +1,76 @@
+# --------------------
+# Python
+# --------------------
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+*.egg
+*.egg-info/
+dist/
+build/
+*.log
+*.tmp
+*.bak
+*.swp
+
+# --------------------
+# Jupyter Notebook
+# --------------------
+.ipynb_checkpoints
+
+# --------------------
+# Virtual Environment
+# --------------------
+.env/
+.venv/
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# --------------------
+# PyCharm
+# --------------------
+.idea/
+*.iml
+
+# --------------------
+# VSCode (if used occasionally)
+# --------------------
+.vscode/
+
+# --------------------
+# Data and Model Artifacts
+# --------------------
+*.h5
+*.hdf5
+*.ckpt
+*.pt
+*.pth
+*.tflite
+*.pb
+*.onnx
+*.joblib
+*.pickle
+*.pkl
+*.npz
+*.npy
+
+# --------------------
+# Output and Results
+# --------------------
+logs/
+runs/
+output/
+checkpoints/
+models/
+__results__/
+
+# --------------------
+# OS Specific
+# --------------------
+.DS_Store
+Thumbs.db
